@@ -19,11 +19,9 @@ header {
     float: left;
     display: block;
     position: fixed;
-
-
 }
 
-h2>a {
+h2 > a {
     font-family: rowdies, helvetica, sans-serif;
     font-weight: 400;
     font-size: 40px;
@@ -37,10 +35,9 @@ h2>a {
 
 /* Navigation */
 
-div>nav {
+div > nav {
     float: right;
     position: fixed;
-
 }
 
 #nav-bar {
@@ -54,13 +51,11 @@ div>nav {
     padding: 20px;
     font-size: 20px;
     transition: 0.5s;
-
 }
 
 #nav-bar li {
     list-style-type: none;
     float: right;
-
 }
 
 #nav-bar li a:hover {
@@ -71,13 +66,38 @@ a:hover {
     color: red;
 }
 
-/* Main image */ 
+/* Main image */
 
 .main-image {
     background-image: url('../images/main-image.jpg');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
+    background-position: center;
 }
+
+#hero {
+    width: 40vh;
+    height: 10vh;
+    padding-top: 350px;
+    padding-left: 70px;
+    font-size: 40px;
+    color: white;
+    font-family: rowdies, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 0 rgb(105, 53, 5), -2px 0 rgb(105, 53, 5), 0 2px rgb(105, 53, 5), 0 -2px rgb(105, 53, 5),
+               1px 1px rgb(105, 53, 5), -1px -1px rgb(105, 53, 5), 1px -1px rgb(105, 53, 5), -1px 1px rgb(105, 53, 5);
+}
+
+#menu-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    border-style: solid;
+    border-color: rgb(105, 53, 5);
+    text-decoration: none;
+    color: white;
+    text-shadow: none;
+    background-color: rgb(105, 53, 5);
+    border-radius: 5px;
+}
+
