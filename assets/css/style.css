@@ -8,6 +8,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
+    
 }
 
 /* Header */
@@ -19,6 +20,7 @@ header {
     float: left;
     display: block;
     position: fixed;
+    overflow: hidden;
 }
 
 h2>a {
@@ -99,7 +101,6 @@ a:hover {
     text-shadow: none;
     background-color: rgb(105, 53, 5);
     border-radius: 5px;
-    opacity: 80%;
 }
 
  /* menu section */
@@ -118,8 +119,42 @@ a:hover {
     font-size: 60px;
     font-family: rowdies, Helvetica, sans-serif;
     color: white;
+    padding-bottom: 15px;
+    
  }
 
- #wook-menu {
+ #wok-menu {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(51, 49, 47);
+    float: right;
+    
+    
+ }
 
+ #curry-menu {
+    width: 50vw;
+    height: auto;
+    background-color: rgb(51, 49, 47);
+    float: right;
+    
+   
+ }
+
+ h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+ }
+
+ ol {
+    text-align: center;
+    list-style-position: inside;
+    color: white;
+ }
+
+ ol > li {
+    padding: 15px;
  }
