@@ -23,10 +23,10 @@ header {
     overflow: hidden;
 }
 
-h2>a {
+h2 > a {
     font-family: rowdies, helvetica, sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 4vh;
     margin-left: 16px;
     margin-top: 12px;
     text-decoration: none;
@@ -37,7 +37,7 @@ h2>a {
 
 /* Navigation */
 
-div>nav {
+div > nav {
     float: right;
     position: fixed;
 }
@@ -68,6 +68,12 @@ a:hover {
     color: #DC0000;
 }
 
+@media screen and (max-width: 900px) {
+    h2 > a {
+        
+    }   
+}
+
 /* Main image */
 
 .main-image {
@@ -83,13 +89,21 @@ a:hover {
     height: 25vh;
     padding-top: 350px;
     padding-left: 70px;
-    font-size: 40px;
     color: white;
     font-family: rowdies, Helvetica, sans-serif;
     font-weight: bold;
     text-shadow: 2px 0 #693505, -2px 0 #693505, 0 2px #693505, 0 -2px #693505,
         1px 1px #693505, -1px -1px #693505, 1px -1px #693505, -1px 1px #693505;
 }
+
+#hero > h1 {
+    text-align: center;
+    font-size: 7vh;
+    font-family: rowdies, Helvetica, sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
 
 #menu-button {
     font-family: Arial, Helvetica, sans-serif;
@@ -114,12 +128,13 @@ a:hover {
     background-color: #693505;
  }
 
- div > h1 {
+ #menu-container > h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 7vh;
     font-family: rowdies, Helvetica, sans-serif;
     color: #FFFFFF;
     padding-bottom: 15px;
+    text-decoration: underline;
     
  }
 
@@ -144,9 +159,10 @@ a:hover {
  h3 {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 35px;
+    font-size: 3.5vh;
     text-align: center;
     color: #FFFFFF;
+    text-decoration: underline;
  }
 
  ol {
