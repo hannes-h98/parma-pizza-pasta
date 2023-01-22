@@ -183,7 +183,7 @@ table {
     height: auto;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #693505;
+    background-color: #000000;
 }
 
 #menu-container>h1 {
@@ -199,7 +199,7 @@ table {
 #wok-menu {
     width: 50vw;
     height: auto;
-    background-color: #693505;
+    background-color: #000000;
     float: right;
     padding-bottom: 2vh;
 
@@ -209,7 +209,7 @@ table {
 #curry-menu {
     width: 50vw;
     height: auto;
-    background-color: #693505;
+    background-color: #000000;
     float: left;
     padding-bottom: 2vh;
 
