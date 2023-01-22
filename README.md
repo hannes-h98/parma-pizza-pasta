@@ -85,6 +85,9 @@ it is something i should have thought about earlier in the project.
 The live link can be found here - https://hannes-h98.github.io/project_1/
 
 ## Credits ##
+### Content ###
 * All icons were taken from [Font Awesome](https://fontawesome.com/)
+* Instructions on how to code the text shadow on my #hero class in css was taken from a guide on [StackOverflow](https://stackoverflow.com/)
+### Media ###
 * Landing image were taken from [Pexels](https://www.pexels.com/)
 
