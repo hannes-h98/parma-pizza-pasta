@@ -9,6 +9,7 @@
     <meta name="keywords" content="order, thai food, sundbyberg,">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/c891c9e159.js" crossorigin="anonymous"></script>
     <title>The Thai Express</title>
 </head>
 
@@ -19,11 +20,13 @@
     <header>
         <div>
             <h2>
-                <a href="index.html" aria-label="Get to home page">The Thai Express</a>
+                <a href="index.html" aria-label="Get to home page">The Thai Express
+                    <i class="fa-solid fa-truck"></i>
+                </a>
             </h2>
         </div>
 
-    <!-- Navigation bar -->
+        <!-- Navigation bar -->
 
         <nav>
             <div>
@@ -33,7 +36,7 @@
                     </li>
 
                     <li>
-                        <a href="#" aria-label="Make account for our app">Sign up</a>
+                        <a href="#registration" aria-label="Make account for our app">Sign up</a>
                     </li>
 
                     <li>
@@ -67,7 +70,7 @@
             <h2>About Us</h2>
             <h4>Our goal is to deliver delicious thai food within minimum time and for a cheap price!</h4>
             <ul id="about-list">
-                <li>Order directly from our app</li>
+                <li>Order directly from our app or give us a call</li>
                 <li>Make account for app below the menu</li>
                 <li>Delivery fee always included in food prices</li>
                 <li>Food at your doorstep within 20 minutes</li>
@@ -115,6 +118,7 @@
                     <li>Gaeng Massaman. <strong>13$</strong></li>
                     <li>Green Curry. <strong>14$</strong></li>
                     <li>Red Curry. <strong>13$</strong></li>
+                </ol>
             </div>
         </div>
 
@@ -126,9 +130,67 @@
         <div id="registration">
             <h2>Signup here!</h2>
             <h4>you will use this login information when using our app</h4>
+            <div id="form-div">
+                <form action="form.html" method="GET">
+                    <label for="fname"><strong>First Name</strong></label>
+                    <br>
+                    <input type="text" class="input" id="fname" name="first-name" placeholder="David" required>
+                    <br>
+                    <label for="lname"><strong>Last Name</strong></label>
+                    <br>
+                    <input type="text" class="input" id="lname" name="last-name" placeholder="Attenborough" required>
+                    <br>
+                    <label for="email"><strong>Email Adress</strong></label>
+                    <br>
+                    <input type="email" class="input" id="email" name="email-adress" placeholder="da@gmail.com"
+                        required>
+                    <br>
+                    <label for="password"><strong>Password</strong></label>
+                    <br>
+                    <input type="password" class="input" id="password" name="password" required>
+                    <br>
+                    <input type="submit" value="Sign Up" id="sign-button">
+                </form>
+            </div>
         </div>
 
     </section>
+
+    <!-- Footer/Contact -->
+
+    <footer>
+        <div id="footer-container">
+            <div class="footer-div">
+                <h3>Contact Us</h3>
+                <p><strong>Thaifast@mail.com</strong></p>
+                <p><strong>call us: 123456789</strong></p>
+                <p><strong>ThaiStreet44, Stockholm</strong></p>
+            </div>
+
+            <div class="footer-div">
+                <h3>Download App</h3>
+                <a href="https://www.apple.com/se/app-store/" aria-label="Go to Appstore" target="_blank">
+                    <i class="fa-brands fa-app-store"> App Store</i>
+                </a>
+
+            </div>
+
+            <div class="footer-div">
+                <h3>Social Media</h3>
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Go to instagram">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="https://twitter.com/home" target="_blank" aria-label="Go to Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Go to facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+
+
+        </div>
+    </footer>
 
 </body>
 
