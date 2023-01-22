@@ -313,6 +313,8 @@ a>i {
     color: #000000;
 }
 
+/* Media queries */
+
 @media screen and (max-width: 960px) {
     h2>a {
         display: none;
@@ -324,59 +326,64 @@ a>i {
 }
 
 @media screen and (max-width: 600px) {
-   #nav-bar {
-    padding-left: 20vh;
-    
-}
-
-
-#nav-bar li {
-    list-style-type: none;
-    float: none;
-    padding-left: 50%;
-}
-
-#nav-bar {
-    padding: 0%;
-}
-
-
-}
-
-
-
-    @media screen and (max-width: 700px) {
-        #about-list {
-            list-style-position: inside;
-            color: #ffffff;
-            width: 40vw;
-            display: inline-block;
-            padding-top: 4vh;
-            padding-left: 30%;
-            font-size: 2vh;
-        }
-
-        #open-hours {
-            width: 70vw;
-            display: inline-block;
-        }
-
-        table {
-            margin-left: 10%;
-            color: #ffffff;
-            border-spacing: 10px;
-            background-color: #462a13;
-            border: 1px solid #ffffff;
-        }
-
-
-        #form-div {
-            padding-top: 3vh;
-            padding-left: 0vh;
-            padding-bottom: 3vh;
-        }
-
+    #nav-bar {
+        padding-left: 20vh;
 
     }
 
-    
+
+    #nav-bar li {
+        list-style-type: none;
+        float: none;
+        padding-left: 50%;
+    }
+
+    #nav-bar {
+        padding: 0%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    #about-list {
+        list-style-position: inside;
+        color: #ffffff;
+        width: 40vw;
+        display: inline-block;
+        padding-top: 4vh;
+        padding-left: 30%;
+        font-size: 2vh;
+    }
+
+    #open-hours {
+        width: 70vw;
+        display: inline-block;
+    }
+
+    table {
+        margin-left: 10%;
+        color: #ffffff;
+        border-spacing: 10px;
+        background-color: #462a13;
+        border: 1px solid #ffffff;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #form-div {
+        padding-top: 3vh;
+        padding-left: 30vw;
+        padding-bottom: 3vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #form-div {
+        padding-top: 3vh;
+        padding-left: 10vw;
+        padding-bottom: 3vh;
+    }
+}
